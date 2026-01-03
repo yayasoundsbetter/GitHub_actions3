@@ -2,7 +2,7 @@ from calcul import addition, multiplication, division
 import pytest
 
 def test_addition():
-    assert addition(2, 3) == 9
+    assert addition(2, 3) == 5
 
 def test_multiplication():
     assert multiplication(4, 3) == 12
